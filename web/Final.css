@@ -367,25 +367,4 @@ body, html {
   }
 }
 
-/* Tablet: dưới 768px */
-@media (max-width: 768px) {
-  .nav-bar {
-    padding: 15px;
-  }
-  .nav-links a {
-    margin-left: 15px;
-    font-size: 15px;
-  }
-  .food-items {
-    width: 100%;
-    padding: 10px 40px;
-  }
-  .footer-content {
-    flex-direction: column;
-    text-align: center;
-  }
-  .footer-right img {
-    width: 180px;
-    margin-top: 20px;
-  }
-}
+
