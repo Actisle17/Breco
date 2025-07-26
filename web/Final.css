@@ -344,3 +344,48 @@ body, html {
   text-decoration: none;
 }
 
+/* Mobile nhỏ: dưới 480px */
+@media (max-width: 480px) {
+  .nav-bar {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .nav-links a {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  .intro h1 {
+    font-size: 28px;
+  }
+  .food-items {
+    width: 100%; /* 1 cột trên mobile */
+    padding: 8px 20px;
+  }
+  .story-image img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Tablet: dưới 768px */
+@media (max-width: 768px) {
+  .nav-bar {
+    padding: 15px;
+  }
+  .nav-links a {
+    margin-left: 15px;
+    font-size: 15px;
+  }
+  .food-items {
+    width: 100%;
+    padding: 10px 40px;
+  }
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-right img {
+    width: 180px;
+    margin-top: 20px;
+  }
+}
