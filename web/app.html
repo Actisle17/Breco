@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bréco - International Dining in Ho Chi Minh City</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="navbar fixed w-full z-50 py-4 px-6 md:px-12 flex justify-between items-center">
+        <div class="logo">
+            <span class="text-2xl font-bold text-white">BRÉCO</span>
+        </div>
+        <div class="hidden md:flex space-x-8">
+            <a href="#home" class="nav-link text-white hover:text-amber-300 transition">Home</a>
+            <a href="#about" class="nav-link text-white hover:text-amber-300 transition">About</a>
+            <a href="#menu" class="nav-link text-white hover:text-amber-300 transition">Menu</a>
+            <a href="#location" class="nav-link text-white hover:text-amber-300 transition">Location</a>
+            <a href="#testimonials" class="nav-link text-white hover:text-amber-300 transition">Testimonials</a>
+        </div>
+        <button class="md:hidden text-white">
+            <i class="fas fa-bars text-2xl"></i>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero min-h-screen flex items-center justify-center text-center text-white pt-16">
+        <div class="container mx-auto px-6 fade-in">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">Experience International Cuisine</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">Authentic flavors served with Vietnamese hospitality in the heart of Ho Chi Minh City</p>
+            <a href="#menu" class="bg-amber-600 hover:bg-amber-700 text-white px-8 py-3 rounded-full font-medium transition inline-block">View Our Menu</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10 slide-up">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Our Story</h2>
+                    <p class="text-gray-600 mb-4">Founded in 2015, Bréco has become a favorite dining destination for international visitors seeking a taste of home with a Vietnamese twist.</p>
+                    <p class="text-gray-600 mb-6">Our chefs combine traditional techniques with local ingredients to create dishes that satisfy both expats and travelers alike.</p>
+                    <div class="flex space-x-4">
+                        <div class="bg-amber-100 p-4 rounded-lg">
+                            <i class="fas fa-utensils text-amber-600 text-2xl mb-2"></i>
+                            <h3 class="font-bold">International Menu</h3>
+                        </div>
+                        <div class="bg-amber-100 p-4 rounded-lg">
+                            <i class="fas fa-wine-glass-alt text-amber-600 text-2xl mb-2"></i>
+                            <h3 class="font-bold">Premium Drinks</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 slide-up">
+                    <div class="slider rounded-lg overflow-hidden shadow-xl">
+                        <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80');"></div>
+                        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');"></div>
+                        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1555244162-803834f70033?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Menu</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Carefully crafted dishes using the freshest local ingredients with international flair</p>
+            </div>
+            
+            <!-- Food Menu -->
+            <div class="mb-20 slide-up">
+                <div class="flex items-center mb-8">
+                    <div class="h-px bg-amber-500 flex-grow"></div>
+                    <h3 class="text-2xl font-bold px-4 text-gray-800">Food Selection</h3>
+                    <div class="h-px bg-amber-500 flex-grow"></div>
+                </div>
+                
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Menu Item 1 -->
+                    <div class="menu-item bg-white p-6 rounded-lg shadow-md">
+                        <div class="h-48 overflow-hidden rounded-lg mb-4">
+                            <img src="https://images.unsplash.com/photo-1546069901-ba9599a8e63c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80" alt="Salmon Salad" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Salmon Salad</h4>
+                        <p class="text-gray-600 mb-4">Fresh Norwegian salmon with mixed greens, cherry tomatoes, and lemon dressing</p>
+                        <p class="text-amber-600 font-bold">320,000 VND</p>
+                    </div>
+                    
+                    <!-- Menu Item 2 -->
+                    <div class="menu-item bg-white p-6 rounded-lg shadow-md">
+                        <div class="h-48 overflow-hidden rounded-lg mb-4">
+                            <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1371&q=80" alt="Beef Tenderloin" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Beef Tenderloin</h4>
+                        <p class="text-gray-600 mb-4">Australian grass-fed beef with roasted vegetables and red wine reduction</p>
+                        <p class="text-amber-600 font-bold">450,000 VND</p>
+                    </div>
+                    
+                    <!-- Menu Item 3 -->
+                    <div class="menu-item bg-white p-6 rounded-lg shadow-md">
+                        <div class="h-48 overflow-hidden rounded-lg mb-4">
+                            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1381&q=80" alt="Truffle Pasta" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Truffle Pasta</h4>
+                        <p class="text-gray-600 mb-4">Homemade fettuccine with black truffle cream sauce and parmesan</p>
+                        <p class="text-amber-600 font-bold">280,000 VND</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Drink Menu -->
+            <div class="slide-up">
+                <div class="flex items-center mb-8">
+                    <div class="h-px bg-amber-500 flex-grow"></div>
+                    <h3 class="text-2xl font-bold px-4 text-gray-800">Drink Selection</h3>
+                    <div class="h-px bg-amber-500 flex-grow"></div>
+                </div>
+                
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Drink Item 1 -->
+                    <div class="menu-item bg-white p-6 rounded-lg shadow-md">
+                        <div class="h-48 overflow-hidden rounded-lg mb-4">
+                            <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Signature Cocktail" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Saigon Sunset</h4>
+                        <p class="text-gray-600 mb-4">Our signature cocktail with rum, fresh passion fruit, lime and mint</p>
+                        <p class="text-amber-600 font-bold">180,000 VND</p>
+                    </div>
+                    
+                    <!-- Drink Item 2 -->
+                    <div class="menu-item bg-white p-6 rounded-lg shadow-md">
+                        <div class="h-48 overflow-hidden rounded-lg mb-4">
+                            <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Wine Selection" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Wine Selection</h4>
+                        <p class="text-gray-600 mb-4">Premium international wines by the glass or bottle</p>
+                        <p class="text-amber-600 font-bold">From 150,000 VND</p>
+                    </div>
+                    
+                    <!-- Drink Item 3 -->
+                    <div class="menu-item bg-white p-6 rounded-lg shadow-md">
+                        <div class="h-48 overflow-hidden rounded-lg mb-4">
+                            <img src="https://images.unsplash.com/photo-1445112098124-3e76dd67983c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Vietnamese Coffee" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Vietnamese Coffee</h4>
+                        <p class="text-gray-600 mb-4">Traditional Vietnamese iced coffee with condensed milk</p>
+                        <p class="text-amber-600 font-bold">80,000 VND</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Find Us</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Located in the heart of Ho Chi Minh City's District 1</p>
+            </div>
+            
+            <div class="flex flex-col md:flex-row slide-up">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <div class="bg-gray-100 p-8 rounded-lg h-full">
+                        <h3 class="text-2xl font-bold mb-4 text-gray-800">Visit Bréco</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <i class="fas fa-map-marker-alt text-amber-600 mt-1 mr-4"></i>
+                                <div>
+                                    <h4 class="font-bold">Address</h4>
+                                    <p class="text-gray-600">123 Le Loi Boulevard, District 1, Ho Chi Minh City</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fas fa-clock text-amber-600 mt-1 mr-4"></i>
+                                <div>
+                                    <h4 class="font-bold">Opening Hours</h4>
+                                    <p class="text-gray-600">Monday - Sunday: 11:00 AM - 11:00 PM</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fas fa-phone-alt text-amber-600 mt-1 mr-4"></i>
+                                <div>
+                                    <h4 class="font-bold">Reservations</h4>
+                                    <p class="text-gray-600">+84 28 3823 4567</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="h-96 w-full rounded-lg overflow-hidden shadow-lg">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.319347434451!2d106.6992763152607!3d10.776839892315766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f46fb7b9919%3A0x8d5c5a5a5a5a5a5a!2sBitexco%20Financial%20Tower!5e0!3m2!1sen!2s!4v1620000000000!5m2!1sen!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">What Our Guests Say</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Hear from our international visitors about their Bréco experience</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card bg-white p-8 rounded-lg shadow-md slide-up">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Sarah Johnson</h4>
+                            <p class="text-gray-500 text-sm">From USA</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"The beef tenderloin was cooked to perfection, just like back home. The service was impeccable and the ambiance made for a wonderful evening."</p>
+                    <div class="mt-4 text-amber-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card bg-white p-8 rounded-lg shadow-md slide-up">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Thomas Müller" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Thomas Müller</h4>
+                            <p class="text-gray-500 text-sm">From Germany</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"As a frequent traveler to Vietnam, Bréco has become my go-to place when I'm missing European flavors. Their wine selection is excellent."</p>
+                    <div class="mt-4 text-amber-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card bg-white p-8 rounded-lg shadow-md slide-up">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Yuki Tanaka" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Yuki Tanaka</h4>
+                            <p class="text-gray-500 text-sm">From Japan</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"The salmon salad was so fresh and delicious! I appreciated how the staff accommodated my dietary requests with such care."</p>
+                    <div class="mt-4 text-amber-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-8 md:mb-0">
+                    <h3 class="text-2xl font-bold mb-4">BRÉCO</h3>
+                    <p class="max-w-xs text-gray-400">International cuisine with Vietnamese hospitality in the heart of Ho Chi Minh City.</p>
+                </div>
+                
+                <div class="mb-8 md:mb-0">
+                    <h4 class="text-lg font-bold mb-4">Contact</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-2 text-amber-400"></i>
+                            <span>123 Le Loi Blvd, D1, HCMC</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-2 text-amber-400"></i>
+                            <span>+84 28 3823 4567</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2 text-amber-400"></i>
+                            <span>info@breco-restaurant.com</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="mb-8 md:mb-0">
+                    <h4 class="text-lg font-bold mb-4">Hours</h4>
+                    <ul class="space-y-2">
+                        <li>Monday - Friday: 11AM - 11PM</li>
+                        <li>Saturday - Sunday: 10AM - 11PM</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-facebook-f text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-instagram text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-tripadvisor text-xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 Bréco Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
